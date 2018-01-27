@@ -7,7 +7,7 @@
 
 // 1127.90068 ticks for encoder
 #define PI 3.14159265
-float diameter = 4;
+int diameter = 4;
 float distInch = 39.3701;
 float calcNumTicks = 0;
 float count = 0;
