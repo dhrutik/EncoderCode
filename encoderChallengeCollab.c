@@ -11,7 +11,7 @@ task main()
 {
 	void calcTicks (float distInch, float diameter)
 	{
-		float calcTicks = 360/(diameter*PI)* distInch;
+		float calcNumTicks = 360/(diameter*PI)* distInch;
 	}
 	while(true){
 
