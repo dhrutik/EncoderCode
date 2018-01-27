@@ -22,10 +22,10 @@ task main()
 count = SensorValue[encode];
 		if(count<1128){
 
-			motor[rightBack] = 127;
-			motor[rightFront] = 127;
-			motor[leftBack] = 127;
-			motor[leftFront] = 127;
+			motor[rightBack] = 60;
+			motor[rightFront] = 60;
+			motor[leftBack] = 60;
+			motor[leftFront] = 60;
 		}
 		else{
 			motor[rightBack] = 0;
